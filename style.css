@@ -7,3 +7,71 @@ p {
 .navbar-brand img {
     height: 60px;
 }
+.hero-image {
+    height: 600px;
+    position: relative;
+}
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+} 
+.hero-content {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.services {
+    width: 100%;
+}
+.services-row {
+    width: 100%;
+    height: 300px;
+   
+}
+.services-col {
+    height: 100%;
+}
+.services-col .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.services-col .image img {
+    transition: 0.5s ease-in-out;
+}
+.services-col:hover .image img {
+    transform: scale(1.5);
+}
+.services-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-book {
+    width: 25%;
+}
+.experience-container {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+.menu-container img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color:white;
+}
+.footer-col {
+    height: 100%;
+}
+
+/* End Index */
