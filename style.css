@@ -80,7 +80,7 @@ p {
 
 .cover-image {
     position: relative;
-    background-image: url(/Img/shop.jpg);
+    background-image: url(Img/shop.jpg);
     height: 100vh;
     background-position: right;
     background-size: cover;
