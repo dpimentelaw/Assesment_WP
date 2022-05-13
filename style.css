@@ -1,0 +1,9 @@
+h1,h2,h3 {
+    font-family: 'Lobster', cursive;
+}
+p {
+    font-family: 'Rambla', sans-serif;
+}
+.navbar-brand img {
+    height: 60px;
+}
